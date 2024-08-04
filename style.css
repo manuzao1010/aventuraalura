@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(74, 161, 74);
+    color:aliceblue;
+    font-family: "Alegreya", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(42, 70, 37);
+    color:rgb(111, 187, 125);
+}
+
+
+.passo{
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90% ;
+}
+
+img{
+    max-width: 80%;
+}
